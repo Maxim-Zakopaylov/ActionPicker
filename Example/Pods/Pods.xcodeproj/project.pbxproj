@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D9EF50252766A2007E26D4 /* APBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D9EF4F252766A2007E26D4 /* APBundle.swift */; };
 		2F986FF6A03F3988696A7D322356933A /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936BDE55556C2CB1DC3313841CBDC0F7 /* UIViewExtensions.swift */; };
 		51EFD6D3DB0636878D90D61BB1A78A9E /* ActionPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9EB4C5941CC9CD8159E8D320C86C73 /* ActionPickerViewController.xib */; };
 		56705CFE9F1B590BCB0EC7849E5760DF /* ActionPickerDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EBD123856F15C379F3CAF20F548E2F /* ActionPickerDecorationView.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		1E74287E1CE3F4A5F705B3BB3BD62506 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		24F843CF23B93F178ECF67B5C774C8C8 /* ActionPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActionPicker.xcconfig; sourceTree = "<group>"; };
+		25D9EF4F252766A2007E26D4 /* APBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APBundle.swift; sourceTree = "<group>"; };
 		2703C2F2615C6473D9E80FA97763134E /* ActionPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ActionPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2879DEB4CDDD356DBBC0BEC48307EC17 /* Pods-ActionPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2BB2BCBFD57D991E8931AC3CF85F5890 /* ActionPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActionPicker.modulemap; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		25D9EF4E252766A2007E26D4 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				25D9EF4F252766A2007E26D4 /* APBundle.swift */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
 		32C1408E9806C68B14158EDD2C630A8A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		6B4BBC1816D6E3C53D996E68242BE565 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				25D9EF4E252766A2007E26D4 /* Bundle */,
 				BEE98209BC8FF54EA6C9A1965528986E /* View */,
 			);
 			name = Extensions;
@@ -340,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D9EF50252766A2007E26D4 /* APBundle.swift in Sources */,
 				9758F446E7386FE191746337B35AF19A /* ActionPicker-dummy.m in Sources */,
 				56705CFE9F1B590BCB0EC7849E5760DF /* ActionPickerDecorationView.swift in Sources */,
 				93082DED518C939709CB22B5EC435342 /* ActionPickerViewController.swift in Sources */,

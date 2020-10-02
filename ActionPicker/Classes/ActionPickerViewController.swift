@@ -30,7 +30,7 @@ final public class ActionPickerViewController: UIViewController {
     
     public init(contentViewController: UIViewController) {
         self.contentViewController = contentViewController
-        super.init(nibName: "\(ActionPickerViewController.self)", bundle: Bundle(for: ActionPickerViewController.self))
+        super.init(nibName: "\(ActionPickerViewController.self)", bundle: APBundle.bundle())
         modalPresentationStyle = .overCurrentContext
     }
     
