@@ -13,10 +13,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		A7BF649223006D100037CD80 /* CompactExampleViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF649123006D100037CD80 /* CompactExampleViewConroller.swift */; };
-		A7BF649523006D340037CD80 /* ExtendedExampleViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF649323006D340037CD80 /* ExtendedExampleViewConroller.swift */; };
-		A7BF649623006D340037CD80 /* ExtendedExampleViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BF649423006D340037CD80 /* ExtendedExampleViewConroller.xib */; };
 		A7E770D0230056A9003F480D /* CompactExampleViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E770CE230056A9003F480D /* CompactExampleViewConroller.xib */; };
 		AB2872B8BF008D662FA6A8A2 /* Pods_ActionPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76167C9D556358E82AE22FDC /* Pods_ActionPicker_Example.framework */; };
+		FCA49BC925B1C0730034D85D /* ExtendedExampleViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA49BC725B1C0730034D85D /* ExtendedExampleViewConroller.swift */; };
+		FCA49BCA25B1C0730034D85D /* ExtendedExampleViewConroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA49BC825B1C0730034D85D /* ExtendedExampleViewConroller.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +34,14 @@
 		76167C9D556358E82AE22FDC /* Pods_ActionPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB66F1F164E56767A198E9A /* Pods_ActionPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF649123006D100037CD80 /* CompactExampleViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompactExampleViewConroller.swift; sourceTree = "<group>"; };
-		A7BF649323006D340037CD80 /* ExtendedExampleViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExtendedExampleViewConroller.swift; path = ../../../../../../../System/Volumes/Data/Users/krivoblotsky/Work/Home/ActionPicker/Example/ActionPicker/ExtendedExampleViewConroller.swift; sourceTree = "<group>"; };
-		A7BF649423006D340037CD80 /* ExtendedExampleViewConroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExtendedExampleViewConroller.xib; path = ../../../../../../../System/Volumes/Data/Users/krivoblotsky/Work/Home/ActionPicker/Example/ActionPicker/ExtendedExampleViewConroller.xib; sourceTree = "<group>"; };
 		A7E770CE230056A9003F480D /* CompactExampleViewConroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompactExampleViewConroller.xib; sourceTree = "<group>"; };
 		B894C48A97D467B3A819EB0D /* Pods-ActionPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionPicker_Example.release.xcconfig"; path = "Target Support Files/Pods-ActionPicker_Example/Pods-ActionPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BF84C70047E6FB968FA3F210 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7E96123EF6F755A220731F5 /* Pods-ActionPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionPicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-ActionPicker_Tests/Pods-ActionPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E4148F51A39B004939D3FFC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F7A17BD6C56A05B56E05F787 /* Pods-ActionPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionPicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ActionPicker_Tests/Pods-ActionPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA49BC725B1C0730034D85D /* ExtendedExampleViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedExampleViewConroller.swift; sourceTree = "<group>"; };
+		FCA49BC825B1C0730034D85D /* ExtendedExampleViewConroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtendedExampleViewConroller.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				A7BF649323006D340037CD80 /* ExtendedExampleViewConroller.swift */,
-				A7BF649423006D340037CD80 /* ExtendedExampleViewConroller.xib */,
+				FCA49BC725B1C0730034D85D /* ExtendedExampleViewConroller.swift */,
+				FCA49BC825B1C0730034D85D /* ExtendedExampleViewConroller.xib */,
 				A7BF649123006D100037CD80 /* CompactExampleViewConroller.swift */,
 				A7E770CE230056A9003F480D /* CompactExampleViewConroller.xib */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -213,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				A7BF649623006D340037CD80 /* ExtendedExampleViewConroller.xib in Resources */,
+				FCA49BCA25B1C0730034D85D /* ExtendedExampleViewConroller.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				A7E770D0230056A9003F480D /* CompactExampleViewConroller.xib in Resources */,
@@ -271,7 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7BF649223006D100037CD80 /* CompactExampleViewConroller.swift in Sources */,
-				A7BF649523006D340037CD80 /* ExtendedExampleViewConroller.swift in Sources */,
+				FCA49BC925B1C0730034D85D /* ExtendedExampleViewConroller.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
